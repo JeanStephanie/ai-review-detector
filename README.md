@@ -1,4 +1,3 @@
-```markdown
 # AI Review Detector
 
 A Machine Learning web application that detects whether a product review is **AI-generated (fake)** or **genuinely written by a human**, using Natural Language Processing (NLP).
@@ -47,7 +46,7 @@ The model is trained on 40,000+ real-world product reviews and achieves **88.62%
 
 ## Project Structure
 
-```
+```bash
 fake-review-detector/
 ├── data/
 │   └── fake_reviews_dataset.csv   # Dataset (not uploaded — download from Kaggle)
@@ -74,7 +73,6 @@ fake-review-detector/
 ---
 
 ## Run Locally
-
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/JeanStephanie/ai-review-detector.git
@@ -112,7 +110,7 @@ streamlit run app.py
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 | Metric | Score |
 |---|---|
@@ -132,7 +130,7 @@ Actually REAL        409             3634
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 - The model is trained on a specific dataset of subtle AI-generated reviews and may not detect all types of fake reviews
 - Reviews that look very different from the training data may be misclassified
@@ -140,7 +138,7 @@ Actually REAL        409             3634
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Train on a larger and more diverse dataset
 - Add more features like star rating and product category
