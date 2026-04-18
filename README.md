@@ -5,8 +5,7 @@ A Machine Learning web application that detects whether a product review is **AI
 ---
 
 ## Live Demo
-[https://ai-review-detector-hhwscepunhobzghk2xg23d.streamlit.app/](#) 
-
+[Click here to try it out](https://ai-review-detector-hhwscepunhobzghk2xg23d.streamlit.app/)
 ---
 
 ## About The Project
